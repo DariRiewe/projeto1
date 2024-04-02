@@ -1,0 +1,55 @@
+body{
+ background-color: rgb(0, 0, 0);
+  color: green;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px;
+  text-align: center;
+
+}
+
+header {
+  background-color: yellowgreen
+}
+
+nav {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+nav a{
+   text-decoration: none;
+   color: black
+  
+}
+
+nav a:hover{
+    cursor: crosshair;
+    text-decoration: none;
+    color: aquamarine
+ }
+
+ section {
+
+    margin: 20px 0;
+
+    }
+
+footer {
+  background-color: yellowgreen;
+  color: green;
+  position: fixed;
+  bottom: 0x;   
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
