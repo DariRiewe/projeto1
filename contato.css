@@ -3,6 +3,8 @@ form{
     flex-direction: column;
     align-items: center;
     font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
 }
 
 label{
@@ -18,7 +20,7 @@ input, textarea{
 
 button{
 padding: 8px;
-background-color: blueviolet;
+background-color: white;
 border: 1px solid;
 color: white;
 font-family: Arial, sans-serif;
@@ -30,3 +32,24 @@ box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
 button:hover{
     background-color: transparent;
 }
+nav {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  nav a{
+     text-decoration: none;
+     color: black
+    
+  }
+  
+  nav a:hover{
+      cursor: crosshair;
+      text-decoration: none;
+      color: white
+   }
+  
+  
+  

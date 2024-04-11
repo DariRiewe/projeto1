@@ -11,7 +11,7 @@
 
 <body>
     <form>
-        
+
         <label for="name">Nome: </label>
         <input type="text" id="name" name="name" required>
 
@@ -45,9 +45,31 @@
         <label for="message">Mensagem: </label>
         <textarea name="message" id="message" rows="5"></textarea>
 
-        <button type="submit">Enviar</button>
+        <button type="submit" onclick="mostrarMensagem()">Enviar</button>
 
+       
+
+     <script>
+        function mostrarMensagem(){
+            alert ("Formulário Enviado")
+        }
+
+     </script>
+
+    <section>
+     <nav>
+          <ul>
+
+            <li><a href="habilidades.html">HABILIDADES</a></li>
+                <li><a href="melhor.html">MELHORES ITENS</a></li>
+                <li><a href="skins.html">MELHORES SKINS</a></li>
+                <li><a href="index.html">PAGINA INICIAL</a></li>
+          </ul>
+        </nav>
+
+    </section>
     </form>
+
 </body>
 
 </html>
